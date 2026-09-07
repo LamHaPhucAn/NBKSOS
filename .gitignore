@@ -1,0 +1,19 @@
+node_modules/
+data/db.json
+*.log
+npm-debug.log*
+
+# Biến môi trường cục bộ (không commit khóa bí mật thật)
+.env
+.env.local
+
+# Tệp hệ điều hành / trình soạn thảo
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+
+# Bản build / cache tạm
+dist/
+coverage/
+*.tmp
